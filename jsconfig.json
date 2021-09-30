@@ -2,9 +2,12 @@
   "moduleResolution": "node",
   "compilerOptions": {
     "jsx": "preserve",
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/styles/*": ["styles/*"]
     }
   },
   "exclude": ["node_modules", ".next"]
