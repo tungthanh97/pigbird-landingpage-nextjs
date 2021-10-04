@@ -19,6 +19,9 @@ module.exports = {
         },
         dark: '#222222',
       },
+      backgroundImage: {
+        'hero-banner': "url('@assets/img/Hero.jpg')",
+      },
     },
   },
   variants: {

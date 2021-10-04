@@ -1,13 +1,14 @@
 {
   "moduleResolution": "node",
+  "allowSyntheticDefaultImports": true,
   "compilerOptions": {
     "jsx": "preserve",
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["*"],
-      "@/components/*": ["components/*"],
-      "@/pages/*": ["pages/*"],
-      "@/styles/*": ["styles/*"]
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"]
     }
   },
   "exclude": ["node_modules", ".next"]
