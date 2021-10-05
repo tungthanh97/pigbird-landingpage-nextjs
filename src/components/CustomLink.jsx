@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import UnstyledLink from './UnstyledLink';
 
-export default function CustomLink({
+export function CustomLink({
   children,
   openNewTab = undefined,
   className = '',

@@ -5,7 +5,7 @@ const links = [
   { href: '/', label: 'Route' },
 ];
 
-export default function Nav() {
+export function Nav() {
   return (
     <nav className='bg-gray-700'>
       <ul className='flex items-center justify-between px-8 py-4'>

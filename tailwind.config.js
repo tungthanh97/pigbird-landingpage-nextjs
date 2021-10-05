@@ -9,6 +9,12 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      width: {
+        body: '1000px',
+      },
+      height: {
+        body: '641px',
+      },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
@@ -21,6 +27,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-banner': "url('@assets/img/Hero.jpg')",
+      },
+      gridTemplateRows: {
+        bodyHeader: '2fr 1fr 1fr',
       },
     },
   },

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 
-export default function UnstyledLink({
+export function UnstyledLink({
   children,
   href,
   openNewTab = undefined,

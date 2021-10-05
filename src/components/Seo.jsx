@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-export default function Seo(props) {
+export function Seo(props) {
   const router = useRouter();
   const meta = {
     title: 'Pigbird',

@@ -1,6 +1,4 @@
-import Seo from '@components/Seo';
-import Header from '@components/Header';
-import Body from '@components/Body';
+import { Header, Seo, Body } from '@components/index';
 
 export default function Home() {
   return (
