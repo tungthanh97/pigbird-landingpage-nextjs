@@ -14,7 +14,7 @@ export function BodyHeader() {
           </p>
         </div>
         <div className='flex flex-wrap justify-center py-2 mx-auto h-9 w-29'>
-          <Button className='px-3 py-2 text-sm rounded-lg'>Get Started</Button>
+          <Button className='px-3 py-2 text-sm text-white '>Get Started</Button>
         </div>
       </div>
     </div>

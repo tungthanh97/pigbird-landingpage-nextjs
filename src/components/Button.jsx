@@ -5,7 +5,7 @@ export function Button({ children, className = '', ...rest }) {
     <button
       {...rest}
       className={clsx(
-        'text-white bg-gray-900 inline-flex items-center rounded-lg text-center justify-between font-bold  animated-underline',
+        'bg-gray-900 inline-flex items-center rounded-lg text-center justify-between font-bold  animated-underline',
         className
       )}
     >

@@ -4,5 +4,4 @@ export * from './Nav';
 export * from './Seo';
 export * from './UnstyledLink';
 export * from './BodyHeader';
-export * from './SingleFeatureCard';
-export * from './FeatureIntro';
+export * from './FeatureDisplay/FeatureDisplay';

@@ -40,7 +40,7 @@ export const FeatureData = [
         'Link all your accounts in one place',
         '',
         '/img/Lounge_Mobile.jpg',
-        false
+        true
       ),
       newFeatureData(
         'Cards → ',

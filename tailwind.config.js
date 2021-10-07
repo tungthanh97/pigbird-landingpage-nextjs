@@ -19,11 +19,11 @@ module.exports = {
         primary: ['Inter', ...fontFamily.sans],
       },
       colors: {
-        primary: {
-          400: '#00E0F3',
-          500: '#00c4fd',
-        },
+        primary: ' #0666eb',
         dark: '#222222',
+      },
+      textColor: {
+        primary: ' #0666eb',
       },
       backgroundImage: {
         'hero-banner': "url('/img/Hero.jpg')",
