@@ -1,7 +1,8 @@
-export { Button } from './Button';
-export { CustomLink } from './CustomLink';
-export { Header } from './Header';
-export { Nav } from './Nav';
-export { Seo } from './Seo';
-export { UnstyledLink } from './UnstyledLink';
-export { Body } from './Body';
+export * from './Button';
+export * from './Header';
+export * from './Nav';
+export * from './Seo';
+export * from './UnstyledLink';
+export * from './BodyHeader';
+export * from './SingleFeatureCard';
+export * from './FeatureIntro';

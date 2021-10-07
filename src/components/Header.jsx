@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import logo from '@assets/img/logo.png';
-import logoName from '@assets/img/logo-name.png';
+import logo from '@/assets/img/logo.png';
+import logoName from '@/assets/img/logo-name.png';
 
 export function Header() {
   return (

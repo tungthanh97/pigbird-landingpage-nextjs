@@ -1,8 +1,8 @@
-import { Button } from '../Button';
+import { Button } from './Button';
 
-export default function BodyHeader() {
+export function BodyHeader() {
   return (
-    <div className='grid content-center justify-center h-full col-span-2 '>
+    <div className='flex flex-col justify-center grid-cols-2 gap-5 mx-auto h-body w-body'>
       <div className='grid content-center w-2/3 gap-5 mx-auto text-center grid-rows-bodyHeader '>
         <div className='text-center'>
           <h1 className=' text-8xl'>One app, all things money</h1>
