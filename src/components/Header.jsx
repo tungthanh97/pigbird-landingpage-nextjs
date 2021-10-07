@@ -1,20 +1,18 @@
 import Image from 'next/image';
-import logo from '@/assets/img/logo.png';
-import logoName from '@/assets/img/logo-name.png';
 
 export function Header() {
   return (
     <header>
       <div className='flex flex-row items-center justify-center bg-gray-100 h-1/6'>
         <Image
-          src={logo}
+          src='/img/logo.png'
           alt='logo'
           objectFit='contain'
           height='80'
           width='60'
         />
         <Image
-          src={logoName}
+          src='/img/logo-name.png'
           alt='logo name'
           objectFit='contain'
           height='30'

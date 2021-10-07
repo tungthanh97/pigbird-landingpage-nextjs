@@ -15,9 +15,11 @@ export default function Home() {
       <Header />
 
       <main className='container min-w-full min-h-screen bg-top bg-no-repeat bg-contain bg-hero-banner'>
-        <BodyHeader />
-        <FeatureIntro data={FeatureData[0].intro} />
-        <SingleFeatureCard data={FeatureData[0].cardMeta[0]} />
+        <div className='grid max-w-screen-lg min-h-full grid-cols-2 gap-5 px-3 mx-auto'>
+          <BodyHeader />
+          <FeatureIntro data={FeatureData[0].intro} />
+          <SingleFeatureCard data={FeatureData[0].cardMeta[0]} />
+        </div>
       </main>
     </>
   );

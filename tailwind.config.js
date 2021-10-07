@@ -26,7 +26,7 @@ module.exports = {
         dark: '#222222',
       },
       backgroundImage: {
-        'hero-banner': "url('@/assets/img/Hero.jpg')",
+        'hero-banner': "url('/img/Hero.jpg')",
       },
       gridTemplateRows: {
         bodyHeader: '2fr 1fr 1fr',

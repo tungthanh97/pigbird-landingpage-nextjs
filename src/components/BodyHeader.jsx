@@ -2,7 +2,7 @@ import { Button } from './Button';
 
 export function BodyHeader() {
   return (
-    <div className='flex flex-col justify-center grid-cols-2 gap-5 mx-auto h-body w-body'>
+    <div className='flex flex-col justify-center col-span-2 h-body '>
       <div className='grid content-center w-2/3 gap-5 mx-auto text-center grid-rows-bodyHeader '>
         <div className='text-center'>
           <h1 className=' text-8xl'>One app, all things money</h1>

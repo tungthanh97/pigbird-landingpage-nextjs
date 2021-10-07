@@ -22,31 +22,31 @@ export const FeatureData = [
     ),
     cardMeta: [
       newFeatureData(
-        'Payments',
+        'Payments → ',
         'Pay and get paid hassle-free',
         'Make payments in seconds in 30+ countries. Split and settle bills without stress',
-        '@/assets/img/feature-background.jpg',
+        '/img/feature-background.jpg',
         false
       ),
       newFeatureData(
-        'Budgeting & Analytics',
+        'Budgeting & Analytics → ',
         'Never overspend again with smart budgeting',
         '',
-        '@/assets/img/GlobalInsurance_Mobile.jpg',
+        '/img/GlobalInsurance_Mobile.jpg',
         true
       ),
       newFeatureData(
-        'Open Banking',
+        'Open Banking → ',
         'Link all your accounts in one place',
         '',
-        '@/assets/img/Lounge_Mobile.jpg',
+        '/img/Lounge_Mobile.jpg',
         false
       ),
       newFeatureData(
-        'Cards',
+        'Cards → ',
         'Card, meet phones',
         'Link your card to Google Pay or Apply Pay to pay straight away from your phone. Shop confidently online with single-se card details',
-        '@/assets/img/feature-background.jpg',
+        '/img/feature-background.jpg',
         false
       ),
     ],
